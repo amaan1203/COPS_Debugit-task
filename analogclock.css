@@ -1,0 +1,43 @@
+#clock{  
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(finalclockui.png) no-repeat;
+    background-size: 100%;
+    border: 10px solid red;
+}
+#hourHand, #minuteHand, #secondHand{
+    position: absolute;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hourHand{
+    width: 2%;
+    height: 25%;
+    top: 25%;
+    left: 48%;
+    background:aqua;
+ 
+}
+ 
+#minuteHand{
+    width: 1%;
+    height: 30%;
+    top: 19%;
+    left: 48%;
+    background:lawngreen;
+  
+}
+ 
+#secondHand{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49%;
+    background:yellow;
+     
+    
+}
+
+
